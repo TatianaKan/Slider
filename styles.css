@@ -45,6 +45,8 @@ body {
   left: 20px;
   margin: 0;
 
+  opacity: 0;
+
 }
 
 .slide.active {
@@ -53,5 +55,5 @@ body {
 
 .slide.active h3 {
   opacity: 1;
-  transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in 0.4s;   /*0,4s делает чтобі текст появлялся после active*/
 }
